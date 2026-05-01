@@ -66,9 +66,9 @@ Aplikasi autentikasi berbasis React Native (Expo) yang terintegrasi dengan Fireb
 ---
 
 ## Screenshots
-| Home | Register | Home | Forgot Password |
+| Home | Register | Login | Forgot Password |
 |------|----------|------|----------------|
-| ![](./screenshots/home.jpeg) | ![](./screenshots/register.jpeg) | ![](./screenshots/home.jpeg) | ![](./screenshots/forget-pw.jpeg) |
+| ![](./screenshots/home.jpeg) | ![](./screenshots/register.jpeg) | ![](./screenshots/login.jpeg) | ![](./screenshots/forget-pw.jpeg) |
 
 ---
 
