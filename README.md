@@ -66,13 +66,9 @@ Aplikasi autentikasi berbasis React Native (Expo) yang terintegrasi dengan Fireb
 ---
 
 ## Screenshots
-<div style="display: flex; flex-direction: row; gap: 10px;">
-  <img src="./screenshots//home.jpeg" alt="Login Screen" width="250" />
-  <img src="./screenshots/register.jpeg" alt="Register Screen" width="250" />
-  <img src="./screenshots/home.jpeg" alt="Home Screen" width="250" />
-  <img src="./screenshots/forget-pw.jpeg" alt="Forgot Password Screen" width="250" />
-</div>
-<br>
+| Home | Register | Home | Forgot Password |
+|------|----------|------|----------------|
+| ![](./screenshots/home.jpeg) | ![](./screenshots/register.jpeg) | ![](./screenshots/home.jpeg) | ![](./screenshots/forget-pw.jpeg) |
 
 ---
 
