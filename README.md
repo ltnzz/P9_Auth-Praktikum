@@ -1,18 +1,18 @@
 # Auth-Praktikum
 
-## 👤 Informasi Mahasiswa
+## Informasi Mahasiswa
 - **Nama** : Latanza Akbar Fadilah
 - **NIM** : 2410501004  
 - **Kelas** : B  
 
 ---
 
-## 📱 Deskripsi
+## Deskripsi
 Aplikasi autentikasi berbasis React Native (Expo) yang terintegrasi dengan Firebase Authentication, menyediakan fitur login aman menggunakan email/password, dukungan biometrik, verifikasi email, reset password, serta sistem auto logout saat user tidak aktif.
 
 ---
 
-## ⚙️ Dependencies
+## Dependencies
 
 ### Core
 - expo (~54.0.33)
@@ -44,39 +44,55 @@ Aplikasi autentikasi berbasis React Native (Expo) yang terintegrasi dengan Fireb
 
 ---
 
-## 🚀 Fitur
+## Fitur
 
-### 🔐 Authentication
+### Authentication
 - Login & Register menggunakan Email/Password (Firebase Authentication)
 - Verifikasi email setelah proses registrasi
 - Reset password melalui email (Firebase Password Recovery)
 
-### 🧬 Biometric Login
+### Biometric Login
 - Login menggunakan fingerprint / face unlock (sesuai device)
 - Menggunakan `expo-local-authentication`
 
-### 🔒 Security
+### Security
 - Token disimpan aman menggunakan `expo-secure-store`
 - Protected routes (akses Home hanya untuk user login)
 
-### ⏱ Auto Logout
+### Auto Logout
 - Logout otomatis setelah 5 menit idle
 - Menggunakan `AppState` + timer
 
 ---
 
-## 🎥 Demo
-Link video demo:  
-👉 https://youtube.com
+## Screenshots
+<div style="display: flex; flex-direction: row; gap: 10px;">
+  <img src="./screenshots//home.jpeg" alt="Login Screen" width="250" />
+  <img src="./screenshots/register.jpeg" alt="Register Screen" width="250" />
+  <img src="./screenshots/home.jpeg" alt="Home Screen" width="250" />
+  <img src="./screenshots/forget-pw.jpeg" alt="Forgot Password Screen" width="250" />
+</div>
+<br>
 
 ---
-## 🛠 Cara Menjalankan
+
+## Video Demo
+- [Klik di sini untuk menonton Video Demo Aplikasi (Youtube)](https://youtu.be/zsZ1dDxjuEA)
+
+---
+## Cara Menjalankan
 
 ### 1. Clone Repository & Install Dependencies
 Pertama, clone repository ini ke komputer Anda, masuk ke dalam folder project, dan install semua dependensinya.
 ```bash
 git clone <URL_REPOSITORY>
+```
+
+```bash
 cd auth-praktikum
+```
+
+```bash
 npm install
 ```
 
